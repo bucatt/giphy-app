@@ -5,7 +5,7 @@ import AddCategory from './components/AddCategory'
 import GifGrid from './components/GifGrid'
 
 function GifExpertApp() {
-  const [categories, setCategories] = useState(['One punch'])
+  const [categories, setCategories] = useState(['Flan de vainilla'])
 
   //   const handleAdd = () => {
   //     // setCategories(['aaa', ...categories])
@@ -14,7 +14,7 @@ function GifExpertApp() {
 
   return (
     <>
-      <h2>gifexpertapp</h2>
+      <h2> Gifs :p </h2>
       <AddCategory setCategories={setCategories} categories={categories} />
       <hr />
 
